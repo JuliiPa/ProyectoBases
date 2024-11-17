@@ -40,7 +40,7 @@ cd ProyectoBases
 ## Configurar la Conexión a la Base de Datos
 Modificar la clase `DatabaseConnection` en el archivo:  
 `src/main/java/org/example/db/DatabaseConnection.java`  
-Asegúrate de actualizar las credenciales de conexión:
+Debe asegurarse de actualizar las credenciales de conexión:
 
 ```java
 private static final String URL = "jdbc:oracle:thin:@<HOST>:<PORT>/<SERVICE_NAME>";
