@@ -32,10 +32,16 @@ cd ProyectoBases
 ## Crear la Base de Datos
 1. Crear una base de datos en Oracle.
 2. Ejecutar los scripts SQL para crear las tablas necesarias: 
+   - `PB_CAFETERIA`
+   - `PB_CANJE`
+   - `PB_COLABORADOR`
    - `PB_COMPRA`
+   - `PB_COMPRA_IMPUESTO`
    - `PB_DETALLE_COMPRA`
+   - `PB_ESTUDIANTE`
+   - `PB_IMPUESTO`
    - `PB_PRODUCTO`
-   - etc.
+   - `PB_VALOR_PRODUCTO`
 
 ## Configurar la Conexión a la Base de Datos
 Modificar la clase `DatabaseConnection` en el archivo:  
